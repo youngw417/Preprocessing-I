@@ -189,7 +189,10 @@ p {
   justify-content: center;
 }
 .main-title h1 {
-  width: 50%;
+  width: 35%;
+  text-align: center;
+  position: relative;
+  left: -3rem;
 }
 .main-title nav {
   width: 40%;
@@ -202,29 +205,30 @@ p {
   color: #2998ff;
 }
 .header__main {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   margin: 0 auto;
   background-color: #f3f3f3;
   padding: 3rem 10%;
   align-items: center;
+  justify-content: space-evenly;
 }
 .header__main .header__main-title {
   padding: 2rem 2rem 0 0;
   margin-right: 0;
+  width: 50%;
 }
 .header__main .header__main-title p {
   font-size: 1.1rem;
 }
 .header__main .imgDiv {
-  max-width: 50%;
-  overflow: hidden;
+  width: 30%;
 }
 .header__main .imgDiv img {
   width: 80%;
   height: 70%;
   border-radius: 50%;
-  opacity: 0.7;
+  filter: grayscale(70%);
 }
 .section__main {
   margin: 2rem auto 0;
@@ -245,10 +249,10 @@ p {
 footer {
   background-color: #454443;
   color: white;
-  height: 10vh;
+  height: 13vh;
+  padding: 1rem;
 }
 footer .footer-div {
-  width: 87%;
+  width: 85%;
   margin: 0 auto;
-  padding: 1rem;
 }

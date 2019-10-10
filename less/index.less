@@ -128,7 +128,10 @@ p{
 	justify-content: center;
 
 	h1{
-		width: 50%;		
+		width: 35%;
+		text-align: center;	
+		position:relative;
+		left: -3rem;	
 	}
 	
 	nav{
@@ -149,17 +152,19 @@ p{
 }
 
 .header__main{
-	width: 100%;
+	max-width: 100%;
 	display: flex;
 	margin: 0 auto;
 	background-color: @sec-grey-color;
 	padding:  3rem 10%;
 	align-items: center;
+	justify-content: space-evenly;
 
 	
 	.header__main-title{
 			padding: 2rem 2rem 0 0;
 			margin-right: 0;
+			width: 50%;
 
 			p{
 				font-size: 1.1rem;
@@ -168,21 +173,22 @@ p{
 		}
 
 	.imgDiv{
-		max-width: 50%;
+		width: 30%;
 		
-		overflow: hidden;
 		
+	
 		
 	
 		img{
 			width: 80%;
 			height: 70%;
 			border-radius: 50%;
-			opacity: 0.7;
+			//opacity: 0.7;
+			filter: grayscale(70%);
 			
 		
 		}
-
+ 
 		
 	}
 }
@@ -221,12 +227,14 @@ footer{
 	
 	background-color: @main-grey-color;
 	color: @main-white-color;
-	height: 10vh;
+	height: 13vh;
+	padding: 1rem;
 
 	.footer-div{
-		width: 87%;
+		width: 85%;
 		margin: 0 auto;
-		padding: 1rem;
+	
+		
 	}
 
 }
