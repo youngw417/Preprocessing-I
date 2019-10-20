@@ -213,13 +213,16 @@ p {
   align-items: center;
   justify-content: space-evenly;
 }
-.header__main .header__main-title {
+.header__main .header__main--title {
   padding: 2rem 2rem 0 0;
   margin-right: 0;
   width: 50%;
 }
-.header__main .header__main-title p {
+.header__main .header__main--title p {
   font-size: 1.1rem;
+}
+.header__main .header__main--title .header__maintitle {
+  margin-bottom: 1rem;
 }
 .header__main .imgDiv {
   width: 30%;
@@ -235,8 +238,11 @@ p {
   padding: 3rem;
 }
 .section__main .section-work__ele {
-  margin: 3rem auto;
+  margin: 1rem auto;
   width: 90%;
+}
+.section__main .section-work__ele ul {
+  list-style-type: square;
 }
 .section--hobby {
   padding-top: 0;
